@@ -1,2 +1,8 @@
 # Part a 
-ifconfig en0 | awk '/inet / {print $NF}'
+ifconfig en0 | grep 'inet ' | sed -n -e 's/^.*broadcast //p'
+
+#part b
+ADDR=$(ifconfig en0 | grep 'inet ' | sed -n -e 's/^.*broadcast //p')
+SUB=$(sed -e 's/.255//g' <<< "$ADDR")
+ping $ADDR -c 1 > /dev/null
+arp -ai en0 | grep "$SUB"| awk '{gsub("[()]", ""); print $2}'
