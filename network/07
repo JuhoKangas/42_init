@@ -1,0 +1,2 @@
+#with nslookup you can query any public DNS server after the domain name
+nslookup who.int 1.1.1.1
