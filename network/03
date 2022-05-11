@@ -1,1 +1,2 @@
+Identify the MAC address of the wifi card
 ifconfig en1 | awk '/ether / {print $NF}'
