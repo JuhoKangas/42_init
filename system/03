@@ -1,0 +1,13 @@
+# What file has to be modified to make it permanent?
+
+/etc/hosts
+/etc/hostname
+
+# You can easily do this with
+sudo vi /etc/hostname
+# and 
+sudo vi /etc/hosts
+# then finally the system needs to be rebooted
+
+# In newer versions you can set the hostname with single command
+hostnamectl set-hostname new-name-here
