@@ -1,4 +1,6 @@
-#c1r1p11.hive.fi
+# Thanks to the previous question and the reverse DNS find the name of your host
+#
+# c1r1p11.hive.fi
 
 # Reverse DNS lookup for ipv4 addresses uses the special domain in-addr.arpa
 # We can look this up with either 'nslookup' or 'host' commands

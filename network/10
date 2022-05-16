@@ -1,3 +1,2 @@
 # Identify the network devices between your computer and the who.int domain
 traceroute who.int
-

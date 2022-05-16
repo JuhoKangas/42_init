@@ -1,3 +1,6 @@
+# Use the output of the previous command to find the name and IP address of the
+# device that makes the link between you (local network) and the outside world
+
 traceroute who.int | awk '/nat / {print $3}'
 # The second hop (nat 10.60.1.1 in this computer) which is the nat server.
 # Network Address Translation (NAT) enables private IP networks

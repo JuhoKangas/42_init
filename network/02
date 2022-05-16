@@ -1,7 +1,10 @@
+# Identify and display the Ethernet interface characteristics:
 # Part a 
+# Identify broadcast address
 ifconfig en0 | grep 'inet ' | sed -n -e 's/^.*broadcast //p'
 
-#part b
+# part b
+# Identify all IP addresses which are part of the same subnet
 ADDR=$(ifconfig en0 | grep 'inet ' | sed -n -e 's/^.*broadcast //p')
 SUB=$(sed -e 's/.255//g' <<< "$ADDR")
 ping $ADDR -c 1 > /dev/null
