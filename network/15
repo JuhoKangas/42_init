@@ -1,0 +1,5 @@
+# Make the intra.42.fr address reroute to 46.19.122.85
+#
+# if you had sudo rights you add
+# 46.19.122.85		intra.42.fr
+# to your /etc/hosts
