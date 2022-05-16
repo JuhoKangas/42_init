@@ -1,0 +1,8 @@
+#c1r1p11.hive.fi
+
+# Reverse DNS lookup for ipv4 addresses uses the special domain in-addr.arpa
+# We can look this up with either 'nslookup' or 'host' commands
+# You can use command below to see evaluation computer host name
+YIADDR=$(ipconfig getpacket en0 | grep 'yiaddr' | sed 's/^.*= //')
+host $YIADDR | awk '{print $NF}'
+
