@@ -1,0 +1,8 @@
+# What command gives you the time since your system was last booted
+uptime
+
+# You can also use
+last reboot
+# or
+who -b
+# to see when the system was booted but they won't give you the uptime since last reboot
