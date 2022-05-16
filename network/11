@@ -1,0 +1,8 @@
+traceroute who.int | awk '/nat / {print $3}'
+# The second hop (nat 10.60.1.1 in this computer) which is the nat server.
+# Network Address Translation (NAT) enables private IP networks
+# using unregistered IP addresses to go online by translating the
+# private internal network address into legal, globally unique address
+#
+# NAT will reveal just one IP address for the entire internal network to
+# the outside world hiding the internal network.
