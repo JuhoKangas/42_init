@@ -1,7 +1,7 @@
-# intra.42.fr has the eternal IP addresses of
+# using nslookup, intra.42.fr has the eternal IP addresses of
 163.172.250.13
 163.172.250.12
 163.172.250.11
 
-# 42.fr has the external IP of
+# using nslookup, 42.fr has the external IP of
 163.172.250.16
