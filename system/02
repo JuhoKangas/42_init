@@ -1,0 +1,4 @@
+# What command can you use to rename your system?
+sudo hostname new-name
+
+# You must be root to change the host name
