@@ -1,0 +1,5 @@
+# What file contains the local DNS entries
+#
+# This information can be found in /etc/hosts
+echo '/etc/hosts contains this local DNS information:'
+cat '/etc/hosts'
