@@ -1,0 +1,4 @@
+# What command lets you know who is connected to the system?
+users
+
+# We can also use commands w or who to see users and their ongoing processes
