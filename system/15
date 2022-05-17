@@ -1,0 +1,7 @@
+# Find the command that kills the background command's process
+
+# The command is 'kill -9 [PID]' that sends a kill signal for the job, to find the pid
+# of the last exercise's process we can run
+
+PID=$(jobs -l | grep "\-f /var/log/syslog" | awk '{print $2}')
+sudo kill -9 $PID
