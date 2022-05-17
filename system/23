@@ -1,0 +1,8 @@
+# With the graphic session:
+# Open the VM
+# Select the user
+# Input username and password
+
+# With ssh session:
+# Open terminal and enter
+# ssh <username>@<localip> -p <port>
