@@ -1,0 +1,7 @@
+# Figure out the exact size of each folder of /var in a humanly understandable way
+# followed by the path of it.
+
+sudo du -sh /var/*
+
+# the flag -s will display only a total for each argument and the
+# flag -h will display it in human readable way
