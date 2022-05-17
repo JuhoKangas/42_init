@@ -1,0 +1,8 @@
+# Name the command that find, in real time, currently running processes
+
+top
+
+# top provides you with dynamic real time table of currently running processes
+# q to quit and h to see help for interactive commands.
+# You can also list processes with ps with flags -aux to see every
+# process on the system using BSD syntax or -e with standard syntax
