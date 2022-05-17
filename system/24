@@ -1,0 +1,3 @@
+# Find the command that list all packages
+
+sudo apt list --installed
