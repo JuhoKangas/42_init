@@ -1,0 +1,5 @@
+# List all services which are started at boot time and name this kind of services
+
+systemctl -at service
+
+# to see only active processes run this without the -a flag
