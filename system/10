@@ -1,0 +1,7 @@
+# Name the command that lists the partition tables of drives?
+sudo lsblk
+
+# This will list all block devices and comes with bunch of flags
+# you can use to fine-tune the information displayed.
+# You can also use the command sudo fdisk -l which will display more information
+# about the disk
