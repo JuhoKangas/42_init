@@ -1,0 +1,7 @@
+# Name the command that displays the available space left and used on the system
+# in a humanly understandable way
+
+df -h
+
+# This will print the space used and space available to the power of 1024
+# you can use -H  flag to display the space to the power of 1000
