@@ -57,7 +57,7 @@ echo
 
 for i in {1..5}
 do
-	sleep 0.5
+	sleep 0.3
 	draw_logo
 	sleep 0.3
 	erase_lines 9
