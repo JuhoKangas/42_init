@@ -1,5 +1,5 @@
 # Find the external IP of 42.fr
-# using nslookup, intra.42.fr has the eternal IP addresses of
+# using nslookup, intra.42.fr has the external IP addresses of
 163.172.250.13
 163.172.250.12
 163.172.250.11
