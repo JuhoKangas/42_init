@@ -5,7 +5,7 @@
 
 # You can easily do this with
 sudo vi /etc/hostname
-# and 
+# then change hosts file to edit the IP to hostname mapping
 sudo vi /etc/hosts
 # then finally the system needs to be rebooted
 
