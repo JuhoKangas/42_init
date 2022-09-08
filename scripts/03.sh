@@ -48,7 +48,7 @@ draw_logo()
 	echo '    ▄████▀     ██████████  ▄████████▀     ▄████▀   █▀     ███         ▀█████▀'
 }
 
-osascript -e "set Volume 10"
+osascript -e "set Volume 5"
 
 echo '------------------------'
 echo 'ARE YOU READY TO TESTIFY'
@@ -75,7 +75,7 @@ do
 	echo 'USAGE'
 	echo '--------'
 	echo
-	echo 'Write ext to change extensions, write stop to stop this madness'
+	echo "Write 'ext' to change extensions, write 'stop' to stop this madness"
 	echo
 	read input
 	if [ $input == 'stop' ]
@@ -87,7 +87,7 @@ do
 	fi
 	if [ $input == 'ext' ]
 	then
-		echo -n "What files do you want to change: "
+		echo -n "What file-extension do you want to change: "
 		read FILE_NAME
 		echo -n "Please choose what extension you want to give the files: "
 		read EX_NAME
